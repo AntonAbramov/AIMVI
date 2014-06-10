@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+	slider();
 
 });
 
@@ -47,4 +47,14 @@ var tabs = function () {
 	}
 }
 
-
+var slider = function () {
+	if ($('.slider').length) {
+		$('.slider').slidesjs({
+			//	width: 940,
+			height: 540,
+			pagination: {
+				active: false
+			}
+		});
+	}
+}

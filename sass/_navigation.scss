@@ -1,0 +1,25 @@
+.navigatioin {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	z-index: 11;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	padding: 0 15px;
+	background: #48413d;
+	a {
+		display: inline-block;
+		padding: 15px;
+		color: #fff;
+		font-size: 14px;
+		font-family: open_sans_condensedbold;
+		text-transform: uppercase;
+		text-decoration: none;
+		margin: 0 -2px;
+		&:hover, &:focus, &.active {
+			background: #2c2c2c;
+			color: #fff;
+		}
+	}
+}

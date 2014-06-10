@@ -1,0 +1,72 @@
+.footer {
+	background: #2e2e2e;
+	border-top:25px solid #474747;
+	.inn {
+		width: 960px;
+		margin:0 auto;
+		@extend .cf;
+	}
+	> .inn {
+		padding-top:25px;
+	}
+	.footer-bottom {
+		background: #000;
+		line-height: 27px;
+		padding:15px 0;
+		@extend .cf;
+		.copyright {
+			float:left;
+			font-family: open_sans_condensedbold;
+			span, a {
+				color:#34a2d1;
+				text-decoration: none;
+			}
+		}
+		.sosials {
+			float:right;
+			a {
+				display: block;
+				float:left;
+				margin-left:3px;
+			}
+		}
+	}
+	.footer-about,
+	.footer-news,
+	.footer-artists {
+		float:left;
+		color:#c5c5c5;
+		h4 {
+			font-family: open_sans_condensedbold;
+			font-size: 18px;
+			text-transform: uppercase;
+			color:#fff;
+			margin-bottom:15px;
+		}
+		.footer-date {
+			font-family: open_sans_condensedbold;
+			font-size: 14px;
+			text-transform: uppercase;
+			color:#35b5eb;
+			margin-bottom: 2px;
+		}
+
+	}
+	.footer-about {
+		width:470px;
+		.footer-logo {
+			float:left;
+		}
+		.about-text {
+			margin-left: 150px;
+		}
+	}
+	.footer-news {
+		width: 220px;
+		margin-left:20px;
+	}
+	.footer-artists {
+		width: 230px;
+		margin-left: 20px;
+	}
+}
