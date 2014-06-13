@@ -410,15 +410,17 @@ textarea {
 	font-family: open_sans_condensedbold;
 	margin-bottom:10px;
 }
-.marked-text {
+.marked-text, blockquote {
 	border-left:7px solid #687a82;
 	padding-left: 10px;
+	display: block;
 	color:#5f7680;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: bold;
 	margin-bottom: 15px;
 	font-family: open_sans_condensedbold;
+	margin:0 0 10px;
 }
 .video-prod {
 	color:#44616d;
@@ -427,7 +429,7 @@ textarea {
 		line-height: 18px;
 	}
 }
-.bullet-points {
+.bullet-points, .content-section ul {
 	li {
 		font-family: open_sans_condensedbold;
 		margin-bottom:9px;
