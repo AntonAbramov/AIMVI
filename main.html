@@ -31,8 +31,13 @@
 			<a href="#">наши услуги</a>
 		</nav>
 		<div class="slider">
-			<div class="slide1"><a href="#" class="watch"><i class="icon icons-watch"></i>Смотреть</a></div>
-			<div class="slide1">&nbsp;</div>
+			<div class="slide"><img src="img/slider/slide1.jpg" alt=""/></div>
+			<div class="slide"><img src="img/slider/slide2.jpg" alt=""/></div>
+			<div class="slide"><img src="img/slider/slide3.jpg" alt=""/></div>
+			<div class="slide"><img src="img/slider/slide4.jpg" alt=""/></div>
+			<div class="slide"><img src="img/slider/slide5.jpg" alt=""/></div>
+			<div class="slide"><img src="img/slider/slide6.jpg" alt=""/></div>
+			<div class="slide"><img src="img/slider/slide7.jpg" alt=""/></div>
 		</div>
 		<div class="header-info">
 			<div class="inn">
@@ -57,7 +62,10 @@
 				</form>
 			</div>
 			<div class="subscribe">
-				<a href="#"><i class="icon icons-red-plus"></i>Подписаться на новости</a>
+				<a class="js-subscribe" href="#"><i class="icon icons-red-plus"></i>Подписаться на новости</a>
+			</div>
+			<div class="subscribe">
+				<a href="#"><i class="icon icons-cross"></i>Отписаться от рассылки</a>
 			</div>
 			<div class="sosials">
 				<a class="icon icons-vk" href="#"></a>
@@ -68,7 +76,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="content-section blue">
+	<div class="content-section">
 		<div class="item-post blue">
 			<div class="block">
 				<h2 class="title"> <i class="icon icons-video"></i>Выпуск сборника концертного видео</h2>
@@ -181,6 +189,23 @@
 			</div>
 		</div>
 	</footer>
+	<div class="overlay">
+		<div class="popup subscribe-popup">
+			<div class="heading">Подпишитесь на обновления</div>
+			<div class="modal-content">
+				<p class="modal-text">Введите своё имя и емейл для подписки на нашу рассылку. </p>
+				<p>
+					<input type="text" placeholder="Имя" />
+				</p>
+				<p>
+					<input type="email" placeholder="Email" />
+				</p>
+				<div class="popup-sbm-btn">
+					<a href="#" class="btn-blue"><i class="icon icons-subsribe"></i> Подписаться</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="js/jquery-2.0.3.min.js"></script>
 	<script src="js/jquery.slides.min.js"></script>
 	<script src="js/mousewheel.js"></script>
